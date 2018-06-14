@@ -1,0 +1,23 @@
+nav{
+  background-color: #500;
+}
+.content{
+  background-color: #600;
+}
+.image{
+  background-color: #700;
+}
+.img{
+  float: left;
+  background-color: #800;
+}
+.text{
+  float: left;
+  background-color: #900;
+}
+.info{
+  background-color: #a00;
+}
+footer{
+  background-color: #b00;
+}

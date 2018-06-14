@@ -1,0 +1,28 @@
+nav{
+  background-color: #222
+}
+.content{
+  background-color: #555
+}
+.left{
+  width: 20%;
+  height: 100px;
+  background-color: #060;
+  float: left;
+}
+.centre{
+  width: 60%;
+  height: 100px;
+  background-color: #070;
+  float: left;
+}
+.right{
+  width: 20%;
+  height: 100px;
+  background-color: #060;
+  float: left;
+}
+
+footer{
+  background: #888
+}

@@ -1,0 +1,14 @@
+nav{
+  background-color: #050;
+}
+.content{
+  background-color: #060;
+}
+.sidebar{
+  float: left;
+  background-color: #070;
+}
+.info{
+  float: left;
+  background-color: #080;
+}
