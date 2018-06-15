@@ -1,3 +1,10 @@
+html{
+  background-color: #eff
+}
+body{
+  width: 80%;
+  margin: auto;
+}
 nav{
   background-color: #222
 }
@@ -5,24 +12,36 @@ nav{
   background-color: #555
 }
 .left{
-  width: 20%;
-  height: 100px;
+  width: 15%;
   background-color: #060;
-  float: left;
 }
 .centre{
-  width: 60%;
-  height: 100px;
+  width: 70%;
   background-color: #070;
-  float: left;
 }
 .right{
-  width: 20%;
-  height: 100px;
+  width: 15%;
   background-color: #060;
-  float: left;
 }
-
+.left,
+.centre,
+.reight{
+  height: 100%;
+}
+.foot{
+  width: 60%;
+  margin: auto;
+}
+.foot>.fl{
+  width: 33%;
+}
 footer{
   background: #888
+}
+.logo{
+  background-color: #FFF;
+  font-size: 50px;
+  font-weight: bold;
+  color: #999;
+  margin: 5px 0 5px 50px;
 }

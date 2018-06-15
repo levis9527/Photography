@@ -8,11 +8,11 @@ nav{
   background-color: #700;
 }
 .img{
-  float: left;
+  width: 60%;
   background-color: #800;
 }
 .text{
-  float: left;
+  width: 40%;
   background-color: #900;
 }
 .info{

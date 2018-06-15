@@ -5,10 +5,10 @@ nav{
   background-color: #060;
 }
 .sidebar{
-  float: left;
+  width: 20%;
   background-color: #070;
 }
 .info{
-  float: left;
+  width: 70%;
   background-color: #080;
 }
