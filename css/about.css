@@ -1,14 +1,51 @@
-nav{
-  background-color: #050;
+html{
+  background-color: #ddf
+}
+body{
+  width: 80%;
+  margin: auto;
 }
 .content{
-  background-color: #060;
+  background-color: #777;
 }
 .sidebar{
   width: 20%;
-  background-color: #070;
+  /*background-color: #777;*/
 }
 .info{
+  padding: 20px 30px;
   width: 70%;
-  background-color: #080;
+  background-color: #BBB;
+  -webkit-box-shadow: inset 3px 3px 5px #666;
+  box-shadow: inset 3px 3px 5px #666;
+}
+.info p{
+  line-height: 25px;
+  padding: 10px 0;
+  text-indent: 2em;
+}
+.info h1{
+  color: #444;
+  text-align: center;
+}
+.info h1+p{
+  color: #888;
+  text-indent: 0;
+  text-align: center;
+}
+.head img{
+  padding: 10px 50px;
+  width: 100%;
+  border-radius: 50%;
+}
+.sidebar li{
+  background-color: #777;
+  padding: 5px 10px 5px 40px;
+}
+.sidebar li:hover{
+  background-color: #666;
+}
+.fotter{
+  color: #666;
+  margin: 20px;
 }

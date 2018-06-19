@@ -1,27 +1,33 @@
 html{
-  background-color: #eff
+  background-color: #ddf
 }
 body{
   width: 80%;
   margin: auto;
 }
-nav{
-  background-color: #222
-}
+
 .content{
-  background-color: #555
+  background-color: #777;
 }
 .left{
   width: 15%;
-  background-color: #060;
+  /*background-color: #060;*/
 }
 .centre{
   width: 70%;
-  background-color: #070;
+  background-color: #ddf;
+}
+.centre>div{
+  position: relative;
+  margin: 5px;
+  width: 48%;
+}
+img{
+  width: 100%;
 }
 .right{
   width: 15%;
-  background-color: #060;
+  /*background-color: #060;*/
 }
 .left,
 .centre,
@@ -29,19 +35,30 @@ nav{
   height: 100%;
 }
 .foot{
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 .foot>.fl{
   width: 33%;
 }
-footer{
-  background: #888
+.centre p{
+  filter: alpha(opacity=60);
+  opacity: .6;
+  line-height: 40px;
+  background-color: #CCC;
+  width: 100%;
+  position: absolute;
+  bottom: 4px;
+  text-align: center;
 }
-.logo{
-  background-color: #FFF;
-  font-size: 50px;
+
+.top li{
+  border-radius: 10px;;
+  background-color: #DDD;
+  font-style: italic;
   font-weight: bold;
-  color: #999;
-  margin: 5px 0 5px 50px;
+  color: #FA0;
+  margin: 10px 0;
+  padding: 0 20px;
+
 }

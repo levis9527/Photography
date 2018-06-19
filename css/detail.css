@@ -1,23 +1,41 @@
-nav{
-  background-color: #500;
+html{
+  background-color: #ddf
+}
+body{
+  width: 80%;
+  margin: auto;
 }
 .content{
-  background-color: #600;
+  background-color: #777;
 }
 .image{
-  background-color: #700;
+  background-color: #777;
 }
 .img{
+  text-align: center;
   width: 60%;
-  background-color: #800;
+  background-color: #777;
 }
 .text{
+  color: #EEF;
+  padding: 20px;
+  line-height: 40px;
   width: 40%;
-  background-color: #900;
+  background-color: #777;
 }
 .info{
-  background-color: #a00;
+  color: #222;
+  line-height: 50px;
+  text-align: center;
+  background-color: #777;
 }
 footer{
-  background-color: #b00;
+  background-color: #888;
+}
+.foot{
+  width: 50%;
+  margin: auto;
+}
+.foot>.fl{
+  width: 33%;
 }

@@ -25,14 +25,22 @@ a{
   margin: 1%
 }
 .c1{
+  background-image: url("../img/index_scenery_bg.jpg");
   border-radius: 25px 8px 0
 }
 .c2{
+  background-image: url("../img/index_scenery_bg.jpg");
   border-radius: 8px 25px 8px 0
 }
 .c3{
+  background-image: url("../img/index_scenery_bg.jpg");
   border-radius: 8px 0 8px 25px
 }
 .c4{
+  background-image: url("../img/index_scenery_bg.jpg");
   border-radius: 0 8px 25px
+}
+html,
+.main{
+  background-image: url("../img/index_bg1.png");
 }

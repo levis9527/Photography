@@ -1,7 +1,11 @@
 *{
+  transition: transform .5s;
   box-sizing: border-box;
   margin: 0;
   padding: 0
+}
+a{
+  text-decoration: none;
 }
 .clear_both::after{
   clear: both;
@@ -13,4 +17,40 @@
 }
 .fr{
   float: right;
+}
+li{
+  list-style: none;
+}
+nav{
+  background-color: #555;
+}
+nav ul{
+  margin-left: 30px;
+}
+nav li{
+  color: #DDD;
+  text-align: center;
+  line-height: 70px;
+  padding: 0 25px;
+}
+nav li:hover{
+  background-color: #333;
+}
+.logo{
+  text-shadow: 0 1px 1px #EEE;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #222;
+  font-size: 45px;
+  font-weight: bold;
+  color: #EEE;
+  margin: 5px 0 5px 50px;
+}
+img:hover{
+  transform: scale(1.03, 1.03);
+}
+footer{
+  padding: 30px 0;
+  line-height: 30px;
+  background: #888
 }
